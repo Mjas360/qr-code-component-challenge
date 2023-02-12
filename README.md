@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# Frontend Mentor - QR code component solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the QR code component challenge on Frontend Mentor designed with react. [Frontend Mentor challenges](https://www.frontendmentor.io/) help you improve your coding skills by building realistic projects.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+* [Overview](#overview)
+  * [Screenshot](#screenshot)
+  * [Links](#links)
+* [My process](#process)
+  * [Built with](#built_with)
+  * [What I learned](#learn)
+  * [Continued development](#dev)
+  * [Useful resouces](#resources)
+* Authour
 
-### `npm start`
+# <a name="overview"></a> Overview
+###### <a name="screenshot"></a> Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot (92)](https://user-images.githubusercontent.com/95770269/218305519-40f8ca15-d56d-4be8-866c-18e62f944c6d.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###### <a name="links"></a> Links
+* Solution URL: (https://github.com/Mjas360/qr-code-component-challenge)
+* Live site URL: (https://qr-code-95dec.web.app/)
 
-### `npm test`
+# <a name="process"></a> My Process
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###### <a name="built_with"></a> Built with
+* React
+* scss
 
-### `npm run build`
+###### <a name="learn"></a> What I learned
+I learnt how to organize the footer and QR Code Card using flexbox, and also understanding the use of Main and Cross-axis alignment to center the QR Code Card.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+.qr-code {
+      width: auto;
+      height: auto;
+      background: white;
+      padding: 1rem;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      border-radius: 15px;
+      box-shadow: 0 0 5 rgba(0, 0, 0, 0.288);
+}
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+I also learnt how to make a responsive site using @mixin and @include directive on scss.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+        @content;
+    }
+}
 
-### `npm run eject`
+@mixin tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+@mixin laptop {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The @include directive
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+@include tablet(){
+      width: auto;
+        }
+@include mobile(){
+         width: auto;
+        }
+```
 
-## Learn More
+###### <a name="dev"></a> Continued development
+This design might be great for my future projects, like a QR Code generator.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+###### <a name="resources"></a> Useful resources
+  * [Interneting](https://www.internetingishard.com/html-and-css/) Is Hard - A Friendly Web Development Tutorial for Complete Beginners, Helped me on learning    the basics of Frontend Development.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# <a name="author"></a> Author
+* Github - [Mjas360]()
+* Frontend Mentor -[FrontendMentor](https://www.frontendmentor.io)
