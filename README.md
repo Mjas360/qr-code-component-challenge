@@ -87,5 +87,5 @@ This design might be great for my future projects, like a QR Code generator.
   * [Interneting](https://www.internetingishard.com/html-and-css/) Is Hard - A Friendly Web Development Tutorial for Complete Beginners, Helped me on learning    the basics of Frontend Development.
 
 # <a name="author"></a> Author
-* Github - [Mjas360]()
+* Github - [Mjas360](https://github.com/Mjas360/qr-code-component-challenge)
 * Frontend Mentor -[FrontendMentor](https://www.frontendmentor.io)
