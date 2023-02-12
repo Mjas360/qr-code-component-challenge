@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mjas360/qr-code-component-challenge/static/css/main.b4bdfabc.css",
+    "main.js": "/Mjas360/qr-code-component-challenge/static/js/main.f9f112c5.js",
+    "index.html": "/Mjas360/qr-code-component-challenge/index.html",
+    "main.b4bdfabc.css.map": "/Mjas360/qr-code-component-challenge/static/css/main.b4bdfabc.css.map",
+    "main.f9f112c5.js.map": "/Mjas360/qr-code-component-challenge/static/js/main.f9f112c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4bdfabc.css",
+    "static/js/main.f9f112c5.js"
+  ]
+}
