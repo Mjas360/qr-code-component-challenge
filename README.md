@@ -15,21 +15,21 @@ This is a solution to the QR code component challenge on Frontend Mentor designe
 * [Authour](#author)
 
 # <a name="overview"></a> Overview
-###### <a name="screenshot"></a> Screenshot
+## <a name="screenshot"></a> Screenshot
 
 ![Screenshot (92)](https://user-images.githubusercontent.com/95770269/218305519-40f8ca15-d56d-4be8-866c-18e62f944c6d.png)
 
-###### <a name="links"></a> Links
+## <a name="links"></a> Links
 * Solution URL: (https://github.com/Mjas360/qr-code-component-challenge)
 * Live site URL: (https://qr-code-95dec.web.app/)
 
 # <a name="process"></a> My Process
 
-###### <a name="built_with"></a> Built with
+### <a name="built_with"></a> Built with
 * React
 * scss
 
-###### <a name="learn"></a> What I learned
+## <a name="learn"></a> What I learned
 I learnt how to organize the footer and QR Code Card using flexbox, and also understanding the use of Main and Cross-axis alignment to center the QR Code Card.
 
 ```
@@ -80,10 +80,10 @@ The @include directive
         }
 ```
 
-###### <a name="dev"></a> Continued development
+## <a name="dev"></a> Continued development
 This design might be great for my future projects, like a QR Code generator.
 
-###### <a name="resources"></a> Useful resources
+## <a name="resources"></a> Useful resources
   * [Interneting Is Hard](https://www.internetingishard.com/html-and-css/) - A Friendly Web Development Tutorial for Complete Beginners, Helped me on learning    the basics of Frontend Development.
 
 # <a name="author"></a> Author
