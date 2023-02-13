@@ -12,7 +12,7 @@ This is a solution to the QR code component challenge on Frontend Mentor designe
   * [What I learned](#learn)
   * [Continued development](#dev)
   * [Useful resouces](#resources)
-* Authour
+* [Authour](#author)
 
 # <a name="overview"></a> Overview
 ###### <a name="screenshot"></a> Screenshot
